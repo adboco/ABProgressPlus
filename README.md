@@ -4,6 +4,11 @@
 ## Screenshots
 ![ScreenShot](/images/demo.gif)
 
+`ABProgressPlusAnimationTypeBallBeat`
+![BallBeat](/images/BallBeat.gif =125x222)
+`ABProgressPlusAnimationTypeBallClipRotate`
+![BallClipRotate](/images/BallClipRotate.gif =125x222)
+
 ## Installation
 Copy ```ABProgressPlus``` folder into your Xcode Project.
 
