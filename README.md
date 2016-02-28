@@ -1,144 +1,7 @@
 # ABProgressPlus
 `ABProgressPlus` is a combination of [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView) and [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) projects. `ABProgressPlus` can display a progress HUD with a huge variety of animations included in [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView).
 
-## Screenshots
-![ScreenShot](/images/demo.gif)
-
-`ABProgressPlusAnimationTypeDefault`
-
-<img src="images/Default.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallBeat`
-
-<img src="images/BallBeat.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallClipRotate`
-
-<img src="images/BallClipRotate.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallClipRotateMultiple`
-
-<img src="images/BallClipRotateMultiple.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallClipRotatePulse`
-
-<img src="images/BallClipRotatePulse.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallGridBeat`
-
-<img src="images/BallGridBeat.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallGridPulse`
-
-<img src="images/BallGridPulse.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallPulse`
-
-<img src="images/BallPulse.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallPulseSync`
-
-<img src="images/BallPulseSync.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallRotate`
-
-<img src="images/BallRotate.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallScale`
-
-<img src="images/BallScale.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallScaleMultiple`
-
-<img src="images/BallScaleMultiple.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallScaleRipple`
-
-<img src="images/BallScaleRipple.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallScaleRippleMultiple`
-
-<img src="images/BallScaleRippleMultiple.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallSpinFadeLoader`
-
-<img src="images/BallSpinFadeLoader.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallTrianglePath`
-
-<img src="images/BallTrianglePath.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallZigZag`
-
-<img src="images/BallZigZag.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeBallZigZagDeflect`
-
-<img src="images/BallZigZagDeflect.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeCookieTerminator`
-
-<img src="images/CookieTerminator.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeDoubleBounce`
-
-<img src="images/DoubleBounce.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeFiveDots`
-
-<img src="images/FiveDots.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeLineScale`
-
-<img src="images/LineScale.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeLineScaleParty`
-
-<img src="images/LineScaleParty.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeLineScalePulseOut`
-
-<img src="images/LineScalePulseOut.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeLineScalePulseOutRapid`
-
-<img src="images/LineScalePulseOutRapid.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeNineDots`
-
-<img src="images/NineDots.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeRotatingSandglass`
-
-<img src="images/RotatingSandglass.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeRotatingSquares`
-
-<img src="images/RotatingSquares.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeRotatingTrigons`
-
-<img src="images/RotatingTrigons.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeThreeDots`
-
-<img src="images/ThreeDots.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeTriangleSkewSpin`
-
-<img src="images/TriangleSkewSpin.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeLineTriplePulse`
-
-<img src="images/TriplePulse.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeLineTripleRings`
-
-<img src="images/TripleRings.gif" width="20%" height="20%">
-
-`ABProgressPlusAnimationTypeLineTwoDots`
-
-<img src="images/TwoDots.gif" width="20%" height="20%">
+<img src="images/demo.gif" width="50%">
 
 ## Installation
 Copy ```ABProgressPlus``` folder into your Xcode Project.
@@ -151,15 +14,15 @@ Copy ```ABProgressPlus``` folder into your Xcode Project.
 ...
 
 - (void)show {
-\t[ABProgressPlus show];
+    [ABProgressPlus show];
 }
 
 - (void)showWithStatus {
-\t[ABProgressPlus showWithStatus:@"Doing something..."];
+    [ABProgressPlus showWithStatus:@"Doing something..."];
 }
 
 - (void)showWithAnimationType {
-\t[ABProgressPlus showWithAnimationType:<#(ABProgressPlusAnimationType)#>];
+    [ABProgressPlus showWithAnimationType:<#(ABProgressPlusAnimationType)#>];
 }
 ```
 ### Customization
@@ -169,6 +32,147 @@ Copy ```ABProgressPlus``` folder into your Xcode Project.
 [ABProgressPlus setDefaultMaskType:ABProgressPlusMaskTypeBlack];
 [ABProgressPlus setDefaultAnimationType:ABProgressPlusAnimationTypeLineScalePulseOutRapid];
 ```
+
+## Screenshots
+
+<table style="width:80%">
+  <tr>
+    <td>`ABProgressPlusAnimationTypeDefault`</td>
+    <td>`ABProgressPlusAnimationTypeBallBeat`</td>
+  </tr>
+  <tr>
+    <td><img src="images/Default.gif" width="50%"></td>
+    <td><img src="images/BallBeat.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallClipRotate`</td>
+    <td>`ABProgressPlusAnimationTypeBallClipRotateMultiple`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallClipRotate.gif" width="50%"></td>
+    <td><img src="images/BallClipRotateMultiple.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallClipRotatePulse`</td>
+    <td>`ABProgressPlusAnimationTypeBallGridBeat`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallClipRotatePulse.gif" width="50%"></td>
+    <td><img src="images/BallGridBeat.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallGridPulse`</td>
+    <td>`ABProgressPlusAnimationTypeBallPulse`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallGridPulse.gif" width="50%"></td>
+    <td><img src="images/BallPulse.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallPulseSync`</td>
+    <td>`ABProgressPlusAnimationTypeBallRotate`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallPulseSync.gif" width="50%"></td>
+    <td><img src="images/BallRotate.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallScale`</td>
+    <td>`ABProgressPlusAnimationTypeBallScaleMultiple`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallScale.gif" width="50%"></td>
+    <td><img src="images/BallScaleMultiple.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallScaleRipple`</td>
+    <td>`ABProgressPlusAnimationTypeBallScaleRippleMultiple`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallScaleRipple.gif" width="50%"></td>
+    <td><img src="images/BallScaleRippleMultiple.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallSpinFadeLoader`</td>
+    <td>`ABProgressPlusAnimationTypeBallTrianglePath`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallSpinFadeLoader.gif" width="50%"></td>
+    <td><img src="images/BallTrianglePath.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeBallZigZag`</td>
+    <td>`ABProgressPlusAnimationTypeBallZigZagDeflect`</td>
+  </tr>
+  <tr>
+    <td><img src="images/BallZigZag.gif" width="50%"></td>
+    <td><img src="images/BallZigZagDeflect.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeCookieTerminator`</td>
+    <td>`ABProgressPlusAnimationTypeDoubleBounce`</td>
+  </tr>
+  <tr>
+    <td><img src="images/CookieTerminator.gif" width="50%"></td>
+    <td><img src="images/DoubleBounce.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeFiveDots`</td>
+    <td>`ABProgressPlusAnimationTypeLineScale`</td>
+  </tr>
+  <tr>
+    <td><img src="images/FiveDots.gif" width="50%"></td>
+    <td><img src="images/LineScale.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeLineScaleParty`</td>
+    <td>`ABProgressPlusAnimationTypeLineScalePulseOut`</td>
+  </tr>
+  <tr>
+    <td><img src="images/LineScaleParty.gif" width="50%"></td>
+    <td><img src="images/LineScalePulseOut.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeLineScalePulseOutRapid`</td>
+    <td>`ABProgressPlusAnimationTypeNineDots`</td>
+  </tr>
+  <tr>
+    <td><img src="images/LineScalePulseOutRapid.gif" width="50%"></td>
+    <td><img src="images/NineDots.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeRotatingSandglass`</td>
+    <td>`ABProgressPlusAnimationTypeRotatingSquares`</td>
+  </tr>
+  <tr>
+    <td><img src="images/RotatingSandglass.gif" width="50%"></td>
+    <td><img src="images/RotatingSquares.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeRotatingTrigons`</td>
+    <td>`ABProgressPlusAnimationTypeThreeDots`</td>
+  </tr>
+  <tr>
+    <td><img src="images/RotatingTrigons.gif" width="50%"></td>
+    <td><img src="images/ThreeDots.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeTriangleSkewSpin`</td>
+    <td>`ABProgressPlusAnimationTypeLineTriplePulse`</td>
+  </tr>
+  <tr>
+    <td><img src="images/TriangleSkewSpin.gif" width="50%"></td>
+    <td><img src="images/TriplePulse.gif" width="50%"></td>
+  </tr>
+  <tr>
+    <td>`ABProgressPlusAnimationTypeLineTripleRings`</td>
+    <td>`ABProgressPlusAnimationTypeLineTwoDots`</td>
+  </tr>
+  <tr>
+    <td><img src="images/TripleRings.gif" width="50%"></td>
+    <td><img src="images/TwoDots.gif" width="50%"></td>
+  </tr>
+</table>
 
 ## License
 The MIT License
