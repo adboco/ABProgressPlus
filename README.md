@@ -15,15 +15,15 @@ Copy ```ABProgressPlus``` folder into your Xcode Project.
 ...
 
 - (void)show {
-[ABProgressPlus show];
+\t[ABProgressPlus show];
 }
 
 - (void)showWithStatus {
-[ABProgressPlus showWithStatus:@"Doing something..."];
+\t[ABProgressPlus showWithStatus:@"Doing something..."];
 }
 
 - (void)showWithAnimationType {
-[ABProgressPlus showWithAnimationType:<#(ABProgressPlusAnimationType)#>];
+\t[ABProgressPlus showWithAnimationType:<#(ABProgressPlusAnimationType)#>];
 }
 ```
 ### Customization
