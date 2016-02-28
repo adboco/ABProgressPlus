@@ -1,7 +1,7 @@
 # ABProgressPlus
 `ABProgressPlus` is a combination of [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView) and [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) projects. `ABProgressPlus` can display a progress HUD with a huge variety of animations included in [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView).
 
-<img src="images/demo.gif" width="50%">
+<img src="images/demo.gif" width="20%">
 
 ## Installation
 Copy ```ABProgressPlus``` folder into your Xcode Project.
