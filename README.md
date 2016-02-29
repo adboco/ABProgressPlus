@@ -37,142 +37,145 @@ Copy ```ABProgressPlus``` folder into your Xcode Project.
 
 <table style="width:80%">
   <tr>
-    <td>`ABProgressPlusAnimationTypeDefault`</td>
-    <td>`ABProgressPlusAnimationTypeBallBeat`</td>
+    <td><tt>ABProgressPlusAnimationTypeDefault</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallBeat</tt></td>
   </tr>
   <tr>
     <td><img src="images/Default.gif" width="50%"></td>
     <td><img src="images/BallBeat.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallClipRotate`</td>
-    <td>`ABProgressPlusAnimationTypeBallClipRotateMultiple`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallClipRotate</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallClipRotateMultiple</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallClipRotate.gif" width="50%"></td>
     <td><img src="images/BallClipRotateMultiple.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallClipRotatePulse`</td>
-    <td>`ABProgressPlusAnimationTypeBallGridBeat`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallClipRotatePulse</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallGridBeat</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallClipRotatePulse.gif" width="50%"></td>
     <td><img src="images/BallGridBeat.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallGridPulse`</td>
-    <td>`ABProgressPlusAnimationTypeBallPulse`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallGridPulse</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallPulse</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallGridPulse.gif" width="50%"></td>
     <td><img src="images/BallPulse.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallPulseSync`</td>
-    <td>`ABProgressPlusAnimationTypeBallRotate`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallPulseSync</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallRotate</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallPulseSync.gif" width="50%"></td>
     <td><img src="images/BallRotate.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallScale`</td>
-    <td>`ABProgressPlusAnimationTypeBallScaleMultiple`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallScale</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallScaleMultiple</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallScale.gif" width="50%"></td>
     <td><img src="images/BallScaleMultiple.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallScaleRipple`</td>
-    <td>`ABProgressPlusAnimationTypeBallScaleRippleMultiple`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallScaleRipple</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallScaleRippleMultiple</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallScaleRipple.gif" width="50%"></td>
     <td><img src="images/BallScaleRippleMultiple.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallSpinFadeLoader`</td>
-    <td>`ABProgressPlusAnimationTypeBallTrianglePath`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallSpinFadeLoader</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallTrianglePath</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallSpinFadeLoader.gif" width="50%"></td>
     <td><img src="images/BallTrianglePath.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeBallZigZag`</td>
-    <td>`ABProgressPlusAnimationTypeBallZigZagDeflect`</td>
+    <td><tt>ABProgressPlusAnimationTypeBallZigZag</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeBallZigZagDeflect</tt></td>
   </tr>
   <tr>
     <td><img src="images/BallZigZag.gif" width="50%"></td>
     <td><img src="images/BallZigZagDeflect.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeCookieTerminator`</td>
-    <td>`ABProgressPlusAnimationTypeDoubleBounce`</td>
+    <td><tt>ABProgressPlusAnimationTypeCookieTerminator</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeDoubleBounce</tt></td>
   </tr>
   <tr>
     <td><img src="images/CookieTerminator.gif" width="50%"></td>
     <td><img src="images/DoubleBounce.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeFiveDots`</td>
-    <td>`ABProgressPlusAnimationTypeLineScale`</td>
+    <td><tt>ABProgressPlusAnimationTypeFiveDots</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeLineScale</tt></td>
   </tr>
   <tr>
     <td><img src="images/FiveDots.gif" width="50%"></td>
     <td><img src="images/LineScale.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeLineScaleParty`</td>
-    <td>`ABProgressPlusAnimationTypeLineScalePulseOut`</td>
+    <td><tt>ABProgressPlusAnimationTypeLineScaleParty</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeLineScalePulseOut</tt></td>
   </tr>
   <tr>
     <td><img src="images/LineScaleParty.gif" width="50%"></td>
     <td><img src="images/LineScalePulseOut.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeLineScalePulseOutRapid`</td>
-    <td>`ABProgressPlusAnimationTypeNineDots`</td>
+    <td><tt>ABProgressPlusAnimationTypeLineScalePulseOutRapid</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeNineDots</tt></td>
   </tr>
   <tr>
     <td><img src="images/LineScalePulseOutRapid.gif" width="50%"></td>
     <td><img src="images/NineDots.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeRotatingSandglass`</td>
-    <td>`ABProgressPlusAnimationTypeRotatingSquares`</td>
+    <td><tt>ABProgressPlusAnimationTypeRotatingSandglass</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeRotatingSquares</tt></td>
   </tr>
   <tr>
     <td><img src="images/RotatingSandglass.gif" width="50%"></td>
     <td><img src="images/RotatingSquares.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeRotatingTrigons`</td>
-    <td>`ABProgressPlusAnimationTypeThreeDots`</td>
+    <td><tt>ABProgressPlusAnimationTypeRotatingTrigons</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeThreeDots</tt></td>
   </tr>
   <tr>
     <td><img src="images/RotatingTrigons.gif" width="50%"></td>
     <td><img src="images/ThreeDots.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeTriangleSkewSpin`</td>
-    <td>`ABProgressPlusAnimationTypeLineTriplePulse`</td>
+    <td><tt>ABProgressPlusAnimationTypeTriangleSkewSpin</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeLineTriplePulse</tt></td>
   </tr>
   <tr>
     <td><img src="images/TriangleSkewSpin.gif" width="50%"></td>
     <td><img src="images/TriplePulse.gif" width="50%"></td>
   </tr>
   <tr>
-    <td>`ABProgressPlusAnimationTypeLineTripleRings`</td>
-    <td>`ABProgressPlusAnimationTypeLineTwoDots`</td>
+    <td><tt>ABProgressPlusAnimationTypeLineTripleRings</tt></td>
+    <td><tt>ABProgressPlusAnimationTypeLineTwoDots</tt></td>
   </tr>
   <tr>
     <td><img src="images/TripleRings.gif" width="50%"></td>
     <td><img src="images/TwoDots.gif" width="50%"></td>
   </tr>
 </table>
+
+## Author
+[Adrián Bouza Correa](https://github.com/adboco)
 
 ## License
 The MIT License
