@@ -330,37 +330,6 @@ static const CGFloat SVProgressHUDUndefinedProgress = -1;
 
 - (void)drawRect:(CGRect)rect {
     [self updateMask];
-    /*CGContextRef context = UIGraphicsGetCurrentContext();
-     
-     switch (self.maskType) {
-     case SVProgressHUDMaskTypeBlack: {
-     
-     [[UIColor colorWithWhite:0 alpha:0.5] set];
-     CGContextFillRect(context, self.bounds);
-     
-     break;
-     }
-     case SVProgressHUDMaskTypeGradient: {
-     
-     size_t locationsCount = 2;
-     CGFloat locations[2] = {0.0f, 1.0f};
-     CGFloat colors[8] = {0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.75f};
-     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
-     CGGradientRef gradient = CGGradientCreateWithColorComponents(colorSpace, colors, locations, locationsCount);
-     CGColorSpaceRelease(colorSpace);
-     
-     CGFloat freeHeight = CGRectGetHeight(self.bounds) - self.visibleKeyboardHeight;
-     
-     CGPoint center = CGPointMake(CGRectGetWidth(self.bounds)/2, freeHeight/2);
-     float radius = MIN(CGRectGetWidth(self.bounds) , CGRectGetHeight(self.bounds)) ;
-     CGContextDrawRadialGradient (context, gradient, center, 0, center, radius, kCGGradientDrawsAfterEndLocation);
-     CGGradientRelease(gradient);
-     
-     break;
-     }
-     default:
-     break;
-     }*/
 }
 
 - (void)updatePosition {
